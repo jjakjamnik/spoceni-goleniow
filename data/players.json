@@ -1,0 +1,430 @@
+{
+  "195002451": {
+    "name": "Willy Knockaert",
+    "appearances": 5,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311743": {
+    "name": "Stefan Dworzyński",
+    "appearances": 4,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240455",
+      "172099938",
+      "172474523"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311737": {
+    "name": "Mirosław Wielgat",
+    "appearances": 5,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "172099938",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311746": {
+    "name": "Adam Godlewski",
+    "appearances": 6,
+    "goals": 1,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172099938",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311740": {
+    "name": "Sebastian Cygler",
+    "appearances": 4,
+    "goals": 2,
+    "matches": [
+      "166240446",
+      "166240454",
+      "172099938",
+      "172474523"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "194934646": {
+    "name": "Marc-Oliver Diek",
+    "appearances": 5,
+    "goals": 1,
+    "matches": [
+      "166240446",
+      "166240454",
+      "172099938",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311734": {
+    "name": "Wojciech Hołyński",
+    "appearances": 3,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "172099938"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311744": {
+    "name": "Siegfried Langer-Presoly",
+    "appearances": 5,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172099938",
+      "172474523"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "195262928": {
+    "name": "Miguel Maestre Armada",
+    "appearances": 4,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172474523"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311733": {
+    "name": "Fryderyk Rygał",
+    "appearances": 5,
+    "goals": 4,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "196359922": {
+    "name": "Uwe Lachinger",
+    "appearances": 5,
+    "goals": 1,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311732": {
+    "name": "Bartłomiej Kniat",
+    "appearances": 6,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172099938",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311735": {
+    "name": "Adam Kłobuch",
+    "appearances": 6,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172099938",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311739": {
+    "name": "Ernest Stachurka",
+    "appearances": 5,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "50666027": {
+    "name": "Per Olsson",
+    "appearances": 6,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172099938",
+      "172474523",
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311745": {
+    "name": "Czesław Oberc",
+    "appearances": 5,
+    "goals": 0,
+    "matches": [
+      "166240446",
+      "166240454",
+      "166240455",
+      "172099938",
+      "172474523"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197020077": {
+    "name": "Jauhen Zdonchyk",
+    "appearances": 2,
+    "goals": 0,
+    "matches": [
+      "166240454",
+      "166240455"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "199971333": {
+    "name": "Klaudiusz Wałęka",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "166240455"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "199973313": {
+    "name": "Jonas Wickander",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "166240455"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311747": {
+    "name": "Jan Kilijański",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172099938"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311742": {
+    "name": "Apoloniusz Matyjaszczyk",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172099938"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311736": {
+    "name": "Leon Osęka",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172099938"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "197311741": {
+    "name": "Edmund Rożek",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172099938"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "198488986": {
+    "name": "Gaston Leenen",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "199973016": {
+    "name": "Mario Aquino",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "196330685": {
+    "name": "Bruno Lignier",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "185662863": {
+    "name": "Denis Horemans",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  },
+  "196407027": {
+    "name": "Bolesław Wołkowicz",
+    "appearances": 1,
+    "goals": 0,
+    "matches": [
+      "172570832"
+    ],
+    "nationality": "",
+    "yellowCards": 0,
+    "redCards": 0,
+    "homegrown": false,
+    "hallOfFame": false
+  }
+}
