@@ -1,0 +1,1507 @@
+/* =========================================================
+   SPOCENI GOLENIÓW
+   CLUB ARCHIVE PREMIUM 2026
+   CSS VERSION 2.0
+========================================================= */
+
+
+/* =========================================================
+   ZMIENNE
+========================================================= */
+
+:root {
+
+    --navy:#071426;
+    --navy2:#102a4d;
+
+    --gold:#d4af37;
+    --gold2:#ebc600;
+
+    --bg:#eef2f7;
+
+    --white:#ffffff;
+
+    --text:#111;
+
+    --green:#1f7a3a;
+    --red:#b30000;
+    --orange:#e6a23c;
+
+    --shadow:
+    0 10px 30px rgba(0,0,0,.18);
+
+}
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+
+body {
+
+    background:
+    radial-gradient(
+        circle at top,
+        #243b55,
+        #071426
+    );
+
+    font-family:
+    "Segoe UI",
+    Arial,
+    Verdana,
+    sans-serif;
+
+    color:var(--text);
+
+}
+
+
+/* =========================================================
+   GŁÓWNY KONTENER
+========================================================= */
+
+
+#container {
+
+    width:1000px;
+
+    margin:30px auto;
+
+    background:var(--bg);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+
+/* =========================================================
+   BANNER
+========================================================= */
+
+
+#banner img {
+
+    width:100%;
+
+    height:180px;
+
+    display:block;
+
+    object-fit:cover;
+
+}
+
+
+
+/* =========================================================
+   TV BAR
+========================================================= */
+
+
+#tvbar {
+
+
+    height:32px;
+
+
+    background:
+    linear-gradient(
+        90deg,
+        var(--navy),
+        var(--navy2)
+    );
+
+
+    color:white;
+
+
+    display:flex;
+
+    align-items:center;
+
+
+    border-bottom:
+    3px solid var(--gold);
+
+
+    overflow:hidden;
+
+
+    font-size:12px;
+
+}
+
+
+
+#tv-scroll {
+
+    flex:1;
+
+    overflow:hidden;
+
+}
+
+
+
+#tv-message {
+
+    display:inline-block;
+
+    white-space:nowrap;
+
+    padding-left:100%;
+
+    animation:
+    tv-scroll 30s linear infinite;
+
+    font-weight:bold;
+
+}
+
+
+
+#tv-clock {
+
+    min-width:230px;
+
+    text-align:right;
+
+    padding-right:15px;
+
+    color:var(--gold);
+
+    font-weight:bold;
+
+}
+
+
+
+
+@keyframes tv-scroll {
+
+
+from {
+
+    transform:translateX(0);
+
+}
+
+
+to {
+
+    transform:translateX(-100%);
+
+}
+
+
+}
+
+
+
+/* =========================================================
+   UKŁAD
+========================================================= */
+
+
+#content-wrapper {
+
+    display:flex;
+
+}
+
+
+
+#menu {
+
+    width:200px;
+
+    padding:15px;
+
+    background:
+
+    linear-gradient(
+        180deg,
+        #0b1a33,
+        #071426
+    );
+
+}
+
+
+
+#content {
+
+    width:800px;
+
+    padding:20px;
+
+}
+
+
+
+/* =========================================================
+   BOX TITLE
+========================================================= */
+
+
+.box-title {
+
+
+    height:34px;
+
+    line-height:34px;
+
+
+    padding-left:15px;
+
+
+    background:
+
+    linear-gradient(
+        90deg,
+        var(--navy),
+        var(--navy2)
+    );
+
+
+    color:var(--gold);
+
+
+    font-weight:bold;
+
+    font-size:14px;
+
+
+    border-radius:10px;
+
+
+    margin-bottom:12px;
+
+
+    border-left:
+
+    4px solid var(--gold);
+
+
+}
+
+
+
+/* =========================================================
+   BOX
+========================================================= */
+
+
+.box {
+
+
+    background:white;
+
+
+    padding:15px;
+
+
+    border-radius:14px;
+
+
+    margin-bottom:18px;
+
+
+    box-shadow:
+
+    0 5px 15px rgba(0,0,0,.08);
+
+
+}
+
+
+
+/* =========================================================
+   MENU
+========================================================= */
+
+
+#menu .box {
+
+
+    background:transparent;
+
+    box-shadow:none;
+
+    padding:5px;
+
+
+}
+
+
+
+
+#menu a {
+
+
+    display:block;
+
+
+    padding:8px 10px;
+
+
+    color:white;
+
+
+    text-decoration:none;
+
+
+    font-size:13px;
+
+
+    font-weight:bold;
+
+
+    border-radius:8px;
+
+
+    transition:.2s;
+
+
+}
+
+
+
+#menu a:hover {
+
+
+    background:var(--gold);
+
+
+    color:#000;
+
+
+    transform:
+
+    translateX(5px);
+
+
+}
+
+
+
+/* =========================================================
+   TABLES
+========================================================= */
+
+
+table {
+
+    width:100%;
+
+    border-collapse:separate;
+
+    border-spacing:0;
+
+    overflow:hidden;
+
+    border-radius:12px;
+
+    font-size:12px;
+
+}
+
+
+
+thead th {
+
+
+    background:
+
+    linear-gradient(
+        180deg,
+        #102a4d,
+        #071426
+    );
+
+
+    color:var(--gold);
+
+
+    padding:8px;
+
+
+    border:none;
+
+
+    text-align:center;
+
+
+}
+
+
+
+tbody td {
+
+
+    background:white;
+
+
+    padding:7px;
+
+
+    border-bottom:
+
+    1px solid #ddd;
+
+
+    text-align:center;
+
+
+}
+
+
+
+tbody tr:nth-child(even) td {
+
+    background:#f8fafc;
+
+}
+
+
+
+tbody tr:hover td {
+
+
+    background:#f5f0dc;
+
+
+}
+
+
+
+/* ostatni wiersz */
+
+tbody tr:last-child td {
+
+    border-bottom:none;
+
+}
+
+
+
+/* =========================================================
+   STATYSTYKI - PODSUMOWANIE
+========================================================= */
+
+
+#stats-summary {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(4,1fr);
+
+
+    gap:12px;
+
+
+}
+
+
+
+.summary-box {
+
+
+    background:
+
+    linear-gradient(
+        145deg,
+        #ffffff,
+        #edf1f8
+    );
+
+
+    padding:15px;
+
+
+    text-align:center;
+
+
+    border-radius:14px;
+
+
+    border-top:
+
+    4px solid var(--gold);
+
+
+    box-shadow:
+
+    0 5px 15px rgba(0,0,0,.12);
+
+
+}
+
+
+
+.summary-box h3 {
+
+
+    font-size:12px;
+
+
+    color:#555;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.summary-box span {
+
+
+    font-size:18px;
+
+
+    font-weight:bold;
+
+
+    color:var(--navy);
+
+
+}
+
+
+
+/* =========================================================
+   TABELA LIGOWA - HATTRICK STYLE
+========================================================= */
+
+
+/* bezpośredni awans */
+
+.league-table tr.rank-promo td:first-child {
+
+    color:#1f7a3a;
+
+    font-weight:bold;
+
+}
+
+
+/* baraż o awans */
+
+.league-table tr.rank-playoff td:first-child {
+
+    color:#4caf50;
+
+    font-weight:bold;
+
+}
+
+
+/* baraż o utrzymanie */
+
+.league-table tr.rank-releg-playoff td:first-child {
+
+    color:#e68a00;
+
+    font-weight:bold;
+
+}
+
+
+/* spadek */
+
+.league-table tr.releg td:first-child {
+
+    color:#b30000;
+
+    font-weight:bold;
+
+}
+
+
+/* nasza drużyna */
+
+.league-table tr.my-team td {
+
+    font-weight:bold;
+
+}
+
+
+
+
+
+/* =========================================================
+   MECZE
+========================================================= */
+
+
+
+.matches-table tr.win td:nth-child(4) {
+
+
+    color:var(--green);
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+.matches-table tr.loss td:nth-child(4) {
+
+
+    color:var(--red);
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+.matches-table tr.draw td:nth-child(4) {
+
+
+    color:#666;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+.matches-table tr.my-match td {
+
+
+    background:
+
+    rgba(212,175,55,.15);
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+/* =========================================================
+   ARCHIWUM SEZONÓW
+========================================================= */
+
+
+.archive-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(10,1fr);
+
+
+    gap:8px;
+
+
+}
+
+
+
+.season-box {
+
+
+    background:white;
+
+
+    color:var(--navy);
+
+
+    border-radius:10px;
+
+
+    padding:10px 5px;
+
+
+    text-align:center;
+
+
+    text-decoration:none;
+
+
+    font-weight:bold;
+
+
+    font-size:12px;
+
+
+    box-shadow:
+
+    0 4px 10px rgba(0,0,0,.12);
+
+
+    transition:.2s;
+
+
+}
+
+
+
+.season-box:hover {
+
+
+    background:var(--navy);
+
+
+    color:var(--gold);
+
+
+    transform:
+
+    translateY(-3px);
+
+
+}
+
+
+
+.season-box.current {
+
+
+    background:var(--gold);
+
+
+    color:#000;
+
+
+}
+
+
+
+/* =========================================================
+   FLAGI
+========================================================= */
+
+
+.flag {
+
+
+    width:25px;
+
+
+    height:15px;
+
+
+    border-radius:3px;
+
+
+    border:1px solid #aaa;
+
+
+}
+
+
+
+.flag.missing {
+
+
+    filter:
+
+    grayscale(100%);
+
+
+}
+
+
+
+.flag.next {
+
+
+    opacity:.5;
+
+
+    border:
+
+    2px solid #d40000;
+
+
+}
+
+
+
+/* =========================================================
+   LEGENDY KOLORÓW - HATTRICK STYLE
+========================================================= */
+
+
+.legend {
+
+    margin-top:10px;
+
+    padding:10px;
+
+    background:#f8fafc;
+
+    border-radius:10px;
+
+    font-size:12px;
+
+    border-left:4px solid var(--gold);
+
+}
+
+
+
+.legend div {
+
+    display:inline-block;
+
+    margin-right:15px;
+
+    font-weight:bold;
+
+}
+
+
+
+/* bezpośredni awans */
+
+.legend-direct {
+
+    color:#1f7a3a;
+
+}
+
+
+
+/* baraż o awans */
+
+.legend-playoff {
+
+    color:#4caf50;
+
+}
+
+
+
+/* baraż o utrzymanie */
+
+.legend-releg {
+
+    color:#e68a00;
+
+}
+
+
+
+/* spadek */
+
+.legend-drop {
+
+    color:#b30000;
+
+}
+
+
+
+/* =========================================================
+   HALL OF FAME - LEGENDS EDITION
+========================================================= */
+
+
+.hof-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(5,1fr);
+
+
+    gap:18px;
+
+
+}
+
+
+
+.hof-card {
+
+
+    position:relative;
+
+
+    background:
+
+
+    linear-gradient(
+
+        160deg,
+
+        #10284d 0%,
+
+        #071426 100%
+
+    );
+
+
+    border:
+
+    1px solid var(--gold);
+
+
+    border-radius:14px;
+
+
+    padding:15px;
+
+
+    text-align:center;
+
+
+    color:white;
+
+
+    overflow:hidden;
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.35);
+
+
+    transition:.25s;
+
+
+}
+
+
+
+.hof-card:hover {
+
+
+    transform:
+
+    translateY(-6px);
+
+
+    box-shadow:
+
+    0 15px 35px rgba(0,0,0,.5);
+
+
+    border-color:#ffd700;
+
+
+}
+
+
+
+/* złota linia legendy */
+
+
+.hof-card::before {
+
+
+    content:"";
+
+
+    position:absolute;
+
+
+    top:0;
+
+
+    left:15%;
+
+
+    width:70%;
+
+
+    height:3px;
+
+
+    background:
+
+    linear-gradient(
+
+        90deg,
+
+        transparent,
+
+        var(--gold),
+
+        transparent
+
+    );
+
+
+}
+
+
+
+/* numer legendy */
+
+
+.hof-number {
+
+
+    position:absolute;
+
+
+    top:8px;
+
+
+    left:8px;
+
+
+    background:var(--gold);
+
+
+    color:var(--navy);
+
+
+    font-weight:bold;
+
+
+    font-size:11px;
+
+
+    padding:3px 8px;
+
+
+    border-radius:12px;
+
+
+}
+
+
+
+/* zdjęcie */
+
+
+.hof-photo {
+
+
+    width:110px;
+
+
+    height:150px;
+
+
+    object-fit:cover;
+
+
+    border-radius:10px;
+
+
+    border:
+
+    2px solid var(--gold);
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+/* flaga */
+
+
+.hof-flag img {
+
+
+    width:25px;
+
+
+    height:15px;
+
+
+}
+
+
+
+/* nazwa */
+
+
+.hof-name {
+
+
+    color:#ffd700;
+
+
+    font-size:13px;
+
+
+    font-weight:bold;
+
+
+    line-height:1.3;
+
+
+    min-height:35px;
+
+
+}
+
+
+
+/* data */
+
+
+.hof-date {
+
+
+    color:#ddd;
+
+
+    font-size:11px;
+
+
+    margin-top:8px;
+
+
+}
+
+
+
+/* =========================================================
+   DODATKOWE ELEMENTY PREMIUM
+========================================================= */
+
+
+/* rekordy klubu */
+
+
+.record-box {
+
+
+    background:
+
+    linear-gradient(
+
+        145deg,
+
+        #ffffff,
+
+        #edf1f8
+
+    );
+
+
+    border-radius:14px;
+
+
+    padding:15px;
+
+
+    border-left:
+
+    4px solid var(--gold);
+
+
+    box-shadow:
+
+    0 5px 15px rgba(0,0,0,.1);
+
+
+}
+
+
+
+/* karta zawodnika - przyszłość importer */
+
+
+.player-card {
+
+
+    background:white;
+
+
+    border-radius:14px;
+
+
+    padding:15px;
+
+
+    box-shadow:
+
+    0 5px 15px rgba(0,0,0,.12);
+
+
+}
+
+
+
+/* puchary */
+
+
+.trophy-box {
+
+
+    text-align:center;
+
+
+    background:
+
+    linear-gradient(
+
+        145deg,
+
+        var(--navy),
+
+        var(--navy2)
+
+    );
+
+
+    color:white;
+
+
+    border-radius:14px;
+
+
+    padding:20px;
+
+
+    border:
+
+    1px solid var(--gold);
+
+
+}
+
+
+
+/* =========================================================
+   STOPKA
+========================================================= */
+
+
+#footer {
+
+
+    background:white;
+
+
+    text-align:center;
+
+
+    padding:10px;
+
+
+    font-size:12px;
+
+
+    color:#555;
+
+
+    border-top:
+
+    1px solid #ddd;
+
+
+}
+
+
+
+/* =========================================================
+   DROBNE POPRAWKI
+========================================================= */
+
+
+a {
+
+
+    transition:.2s;
+
+
+}
+
+
+
+img {
+
+
+    max-width:100%;
+
+
+}
+
+
+
+/* =========================================================
+   RESPONSYWNOŚĆ - BEZ NISZCZENIA HT KLIMATU
+========================================================= */
+
+
+@media(max-width:1050px){
+
+
+    #container {
+
+
+        width:95%;
+
+
+    }
+
+
+
+    #content {
+
+
+        width:auto;
+
+
+    }
+
+
+}
+
+
+
+@media(max-width:700px){
+
+
+    #content-wrapper {
+
+
+        flex-direction:column;
+
+
+    }
+
+
+    #menu {
+
+
+        width:100%;
+
+
+    }
+
+
+    #stats-summary {
+
+
+        grid-template-columns:
+
+        repeat(2,1fr);
+
+
+    }
+
+
+    .hof-grid {
+
+
+        grid-template-columns:
+
+        repeat(2,1fr);
+
+
+    }
+
+
+}
+
+
+/* =========================================================
+   LIGA - KOLOR CAŁEGO WIERSZA
+========================================================= */
+
+
+/* awans bezpośredni */
+
+.league-table tr.rank-promo td {
+
+    color:#1f8f3a;
+
+    font-weight:bold;
+
+}
+
+
+
+/* baraż o awans */
+
+.league-table tr.rank-playoff td {
+
+    color:#4caf50;
+
+    font-weight:bold;
+
+}
+
+
+
+/* baraż o utrzymanie */
+
+.league-table tr.rank-releg-playoff td {
+
+    color:#e68a00;
+
+    font-weight:bold;
+
+}
+
+
+
+/* spadek */
+
+.league-table tr.rank-drop td {
+
+    color:#c00000;
+
+    font-weight:bold;
+
+}
+
+
+.league-table tr.my-team td {
+
+    font-weight:900;
+
+}
+
+/* =========================================================
+   NASZA DRUŻYNA - TYLKO POGRUBIENIE
+========================================================= */
+
+.league-table tr.my-team td {
+    font-weight:900;
+}
+}

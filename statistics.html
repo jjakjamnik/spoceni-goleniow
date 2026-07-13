@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spoceni Goleniów - Statystyki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div id="container">
+
+
+    <!-- BANNER -->
+    <div id="banner">
+        <img src="images/banner.png" alt="Spoceni Goleniów Banner">
+    </div>
+
+
+
+    <!-- TV BAR -->
+    <div id="tvbar">
+
+        <div id="tv-scroll">
+            <div id="tv-message"></div>
+        </div>
+
+        <div id="tv-clock"></div>
+
+    </div>
+
+
+
+
+
+    <!-- MAIN WRAPPER -->
+    <div id="content-wrapper">
+
+
+
+        <!-- MENU -->
+        <div id="menu">
+
+
+            <div class="box-title">
+                Spoceni Goleniów
+            </div>
+
+
+            <div class="box">
+
+                <a href="index.html">Home</a><br>
+                <a href="news.html">News</a><br>
+                <a href="squad.html">Kadra</a><br>
+                <a href="league.html">Liga</a><br>
+                <a href="flags.html">Flagi</a><br>
+                <a href="archive.html">Archiwum</a><br>
+                <a href="statistics.html">Statystyki</a><br>
+                <a href="halloffame.html">Hall of Fame</a>
+
+            </div>
+
+
+
+            <div class="box-title">
+                Spoceni U-19
+            </div>
+
+
+            <div class="box">
+
+                <a href="u19-squad.html">Kadra</a><br>
+                <a href="u19-matches.html">Mecze</a>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <!-- CONTENT -->
+        <div id="content">
+
+
+
+            <div class="box-title">
+                Statystyki klubu
+            </div>
+
+
+
+            <div class="box">
+
+
+
+                <!-- PODSUMOWANIE -->
+
+                <div id="stats-summary">
+
+
+                    <div class="summary-box">
+
+                        <div class="summary-title">
+                            Rozegrane mecze
+                        </div>
+
+                        <div class="summary-value" id="total-matches">
+                            0
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="summary-box">
+
+                        <div class="summary-title">
+                            Liczba zawodników
+                        </div>
+
+                        <div class="summary-value" id="total-players">
+                            0
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="summary-box">
+
+                        <div class="summary-title">
+                            Najwięcej występów
+                        </div>
+
+                        <div class="summary-value small" id="top-player">
+                            -
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="summary-box">
+
+                        <div class="summary-title">
+                            Najlepszy strzelec
+                        </div>
+
+                        <div class="summary-value small" id="top-scorer">
+                            -
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <br>
+
+
+
+                <!-- TABELA ZAWODNIKÓW -->
+
+
+                <table id="players-table">
+
+
+                    <thead>
+
+                        <tr>
+                       <th data-sort="lp">Lp</th>
+<th data-sort="name">Imię i nazwisko</th>
+<th data-sort="nationality">Kraj</th>
+<th data-sort="appearances">Występy</th>
+<th data-sort="goals">Gole</th>
+<th data-sort="yellowCards">Żółte 🟨</th>
+<th data-sort="redCards">Czerwone 🟥</th>
+<th data-sort="homegrown">Wychowanek</th>
+<th data-sort="hallOfFame">Galeria Chwały</th>
+                        </tr>
+
+                    </thead>
+
+
+
+                    <tbody>
+
+                    </tbody>
+
+
+
+                </table>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <div id="footer">
+
+        Spoceni Goleniów © 2026
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+<script src="tv.js"></script>
+<script src="statistics.js"></script>
+
+
+</body>
+
+</html>
